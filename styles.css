@@ -9,6 +9,15 @@ h1 {
   margin-bottom: 60px;
 }
 
-h2 {
+h2,
+a {
   color: #b46060;
+}
+
+a {
+  font-weight: bold;
+}
+
+a:hover {
+  color: #ffbf9b;
 }
