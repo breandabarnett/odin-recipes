@@ -25,6 +25,11 @@ a:hover {
   color: #ffbf9b;
 }
 
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+
 .page {
   max-width: 960px;
   margin: 0 auto;
