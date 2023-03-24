@@ -39,3 +39,8 @@ footer {
   text-align: center;
   list-style: none;
 }
+
+.recipe-photo {
+  text-align: center;
+  margin-bottom: 40px;
+}
