@@ -19,6 +19,8 @@ a {
 
 a {
   font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 0.5px;
 }
 
 a:hover {
@@ -38,6 +40,15 @@ footer {
 .recipes li {
   text-align: center;
   list-style: none;
+}
+
+.card {
+  margin: 0 auto;
+}
+
+.card-title {
+  font-weight: bold;
+  letter-spacing: 0.5px;
 }
 
 .recipe-photo {
