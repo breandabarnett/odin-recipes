@@ -37,6 +37,11 @@ footer {
   margin: 0 auto;
 }
 
+.navbar-brand {
+  font-family: "Josefin Slab", serif;
+  font-size: 35px;
+}
+
 .recipes li {
   text-align: center;
   list-style: none;
