@@ -38,8 +38,9 @@ footer {
 }
 
 .navbar-brand {
-  font-family: "Josefin Slab", serif;
+  font-family: "Josefin Slab", Georgia, serif;
   font-size: 35px;
+  font-weight: 700;
 }
 
 .recipes li {
