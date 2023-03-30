@@ -60,6 +60,14 @@ footer {
   letter-spacing: 0.5px;
 }
 
+.btn-recipe {
+  background: #b46060;
+  color: white;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: "Josefin Slab", Georgia, serif;
+}
+
 .recipe-photo {
   text-align: center;
   margin-bottom: 40px;
