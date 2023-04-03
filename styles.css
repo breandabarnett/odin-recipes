@@ -56,8 +56,13 @@ footer {
 }
 
 .card-title {
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.5px;
+}
+
+.card-text {
+  font-size: 16px;
 }
 
 .btn-recipe {
