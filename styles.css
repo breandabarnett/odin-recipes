@@ -81,3 +81,8 @@ footer {
   text-align: center;
   margin-bottom: 40px;
 }
+
+.food-image {
+  border: 2px solid none;
+  border-radius: 20px;
+}
