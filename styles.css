@@ -235,10 +235,14 @@ footer {
   font-size: 19px;
   font-weight: 600;
   font-family: "Josefin Slab", Georgia, serif;
+  cursor: pointer;
+  transition: all 0.4s;
 }
 
 .btn:hover {
-  border-color: #4d4d4d;
+  background: #b46060;
+  color: white;
+  opacity: 0.8;
 }
 
 .recipe-photo {
