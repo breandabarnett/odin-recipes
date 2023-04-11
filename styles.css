@@ -188,6 +188,7 @@ footer {
 .page {
   max-width: 960px;
   margin: 0 auto;
+  padding: 0 10px 0;
 }
 
 .navbar-brand {
@@ -253,6 +254,7 @@ footer {
 .food-image {
   border: 2px solid none;
   border-radius: 20px;
+  width: 400px;
 }
 
 @media screen and (max-width: 820px) {
@@ -266,5 +268,13 @@ footer {
   #footer-content {
     grid-template-columns: repeat(1, 1fr);
     padding: 3rem 2rem;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .food-image {
+    width: 300px;
   }
 }
