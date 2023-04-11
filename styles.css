@@ -1,8 +1,17 @@
+:root {
+  --color-neutral: rgb(248, 249, 250);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Montserrat", Helvetica, sans-serif;
   font-weight: 400;
   color: #4d4d4d;
-  margin: 0 0 40px;
 }
 
 h1 {
@@ -35,8 +44,137 @@ hr {
 }
 
 footer {
+  width: 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer-content {
+  background: var(--color-neutral);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer-contacts h1 {
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+#footer-social-media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer-social-media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: var(--color-neutral);
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer-social-media .footer-link i {
+  font-size: 1.25rem;
+}
+
+#footer-social-media .footer-link:hover {
+  opacity: 0.8;
+}
+
+#instagram {
+  background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+
+#facebook {
+  background: #4267b3;
+}
+
+#twitter {
+  background: #1da1f2;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  list-style: none;
+}
+
+.footer-list .footer-link {
+  color: #4d4d4daf;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+.footer-list .footer-link:hover {
+  color: #b46060;
+}
+
+#footer-subscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+#footer-subscribe p {
+  color: #4d4d4daf;
+}
+
+#input-group {
+  display: flex;
+  align-items: center;
+  background: #4d4d4d21;
+  border-radius: 4px;
+}
+
+#input-group input {
+  all: unset;
+  padding: 0.75rem;
+  width: 100%;
+}
+
+#input-group button {
+  background: #b46060;
+  border: none;
+  color: var(--color-neutral);
+  padding: 0px 1.2rem;
+  font-size: 1.125rem;
+  height: 100%;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+#input-group button:hover {
+  opacity: 0.8;
+}
+
+#footer-copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
-  font-size: 13px;
+  background: #4d4d4d21;
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 1.5rem;
+}
+
+#footer-copyright a {
+  color: #4d4d4d;
+  font-weight: 500;
+  transition: all 0.4s;
+}
+
+#footer-copyright a:hover {
+  color: #b46060;
 }
 
 .page {
