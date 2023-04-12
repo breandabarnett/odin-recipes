@@ -26,17 +26,15 @@ h2 {
 }
 
 a {
-  color: #b46060;
-}
-
-a {
-  font-weight: bold;
+  color: #4d4d4d;
+  font-weight: 600;
   text-decoration: none;
   letter-spacing: 0.5px;
 }
 
 a:hover {
-  color: #ffbf9b;
+  color: #b46060;
+  transition: all 0.4s;
 }
 
 hr {
