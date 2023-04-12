@@ -218,6 +218,7 @@ footer {
 
 .card {
   margin: 0 auto;
+  min-width: 20rem;
 }
 
 .card-title {
