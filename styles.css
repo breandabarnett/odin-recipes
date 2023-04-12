@@ -62,7 +62,7 @@ footer {
 }
 
 #footer-contacts h1 {
-  margin-bottom: 0.75rem;
+  margin: 0 auto 0.75rem;
   text-align: left;
   font-family: "Josefin Slab", Georgia, serif;
   font-size: 30px;
