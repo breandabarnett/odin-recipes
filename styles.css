@@ -252,6 +252,11 @@ footer {
   opacity: 0.8;
 }
 
+.view-btn {
+  margin: 80px auto;
+  text-align: center;
+}
+
 .recipe-photo {
   text-align: center;
   margin-bottom: 40px;
