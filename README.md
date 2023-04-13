@@ -3,9 +3,12 @@
 
 <h4>🔗 https://breandabarnett.github.io/odin-recipes/</h4>
 
+
+<img src="https://user-images.githubusercontent.com/104718008/231683263-4c4772f3-a7ca-4131-9e12-e7feb81f3c4b.gif" alt="live site preview gif"/>
+
 <br />
 <p>
-  Project assignment by The Odin Project for HTML Foundations.
+  🌱 Project assignment by The Odin Project for HTML Foundations.
 </p>
 <br />
 
